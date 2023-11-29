@@ -1,4 +1,5 @@
 @us03
+@Regression
 Feature: US03 Add Room
 
   Background:

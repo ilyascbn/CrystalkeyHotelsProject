@@ -9,7 +9,7 @@ displayAttached: true
 displayExpanded: false
 
 dashboardConfig:
-   title: Operating Room Procedures Regression Report
+   title: Hotel Project Regression Report
    dataBackgroundColor: 4F0CC8
    titleColor: FF0000
    dateColor: 969696

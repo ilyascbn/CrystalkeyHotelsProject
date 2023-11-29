@@ -1,4 +1,4 @@
-
+@Regression
 @HotelLogin
 Feature: US 02 hotel Login
 

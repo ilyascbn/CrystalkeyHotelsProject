@@ -1,4 +1,5 @@
 @login
+@Regression
 Feature: US 001 hotel Login
 
   Background:
