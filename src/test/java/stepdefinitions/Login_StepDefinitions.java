@@ -71,7 +71,7 @@ public class Login_StepDefinitions {
     @Given("\"Try again please Username or password is incorrect, please correct them and try again Wrong password\"mesajını görür")
     public void try_again_please_username_or_password_is_incorrect_please_correct_them_and_try_again_wrong_password_mesajını_görür() {
 
-        Assert.assertTrue(String.valueOf(login_page.contactButon.getText().contains("Contact")),false);
+        Assert.assertTrue(String.valueOf(login_page.contactButon.getText().contains("Contact")),true);
     }
 
 

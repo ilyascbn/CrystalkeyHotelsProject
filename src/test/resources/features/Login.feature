@@ -1,4 +1,4 @@
-@HotelLogin
+@login
 Feature: US 001 hotel Login
 
   Background:
