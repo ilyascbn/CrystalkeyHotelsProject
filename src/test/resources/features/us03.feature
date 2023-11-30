@@ -1,4 +1,4 @@
-@us03
+@AddHotel
 @Regression
 Feature: US03 Add Hotel
 
