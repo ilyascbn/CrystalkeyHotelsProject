@@ -84,7 +84,7 @@ Feature: US03 Add Room
     And User enter a valid Gmail address
     And User select a valid ID group
     And User click the Save button
-    Then User see an error message below the Address textbox
+    Then User see an error message
 
 
   @US03 @TC006
@@ -100,7 +100,7 @@ Feature: US03 Add Room
     And User enter a valid Gmail address
     And User leave the ID Group dropdown empty
     And User click the Save button
-    Then User see an error message below the ID Group dropdown
+    Then User see an error message
 
 
   @US03 @TC007

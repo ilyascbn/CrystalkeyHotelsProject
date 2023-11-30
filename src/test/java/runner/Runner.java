@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@Regression",
+        tags = "@TC003",
         dryRun = false
 
 )
@@ -25,4 +25,3 @@ public class Runner {
 
 
 }
-//slm

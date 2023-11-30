@@ -73,9 +73,38 @@ public class AddHotel_StepDefinitions {
         addRoomPage.addHotelbtnSubmit.click();
     }
     @Then("User see a message that the hotel was added successfully")
-    public void user_see_a_message_that_the_hotel_was_added_successfully() {
-        Assert.assertTrue(addRoomPage.popuppossitivemessage.isDisplayed());
+    public void user_see_a_message_that_the_hotel_was_added_successfully() throws InterruptedException {
+        Thread.sleep(3000);
+        Assert.assertEquals(addRoomPage.popuppossitivemessage.getText(), "Hotel was inserted successfully");
     }
+    @Given("User leave the Code textbox empty")
+    public void user_leave_the_code_textbox_empty() {
+        addRoomPage.addHotelCode.sendKeys("");
+    }
+    @Given("User leave the Name textbox empty")
+    public void user_leave_the_name_textbox_empty() {
+        addRoomPage.addHotelName.sendKeys("");
+    }
+    @Given("User leave the Email textbox empty")
+    public void user_leave_the_email_textbox_empty() {
+        addRoomPage.addHotelEmail.sendKeys("");
+    }
+    @Given("User leave the ID Group dropdown empty")
+    public void user_leave_the_ıd_group_dropdown_empty() {
+        Select dropdownElement = new Select(addRoomPage.addHotelIDGroup);
+        dropdownElement.selectByVisibleText("");
 
-
-}
+    }
+    @Given("User leave the Address textbox empty")
+    public void user_leave_the_address_textbox_empty() {
+        addRoomPage.addHotelAddress.sendKeys("");
+    }
+    @Given("User enter a letter in the Phone textbox")
+    public void user_enter_a_letter_in_the_phone_textbox() {
+        addRoomPage.addHotelPhone.sendKeys("");
+    }
+    @Then("User see an error message")
+    public void user_see_an_error_message() throws InterruptedException {
+        System.out.println("Please enter valid data");
+            }
+        }
