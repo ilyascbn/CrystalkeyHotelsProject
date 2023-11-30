@@ -1,6 +1,6 @@
 @us03
 @Regression
-Feature: US03 Add Room
+Feature: US03 Add Hotel
 
   Background:
     Given Kullanıcı CRYSTALKEY HOTELS sayfasına gider

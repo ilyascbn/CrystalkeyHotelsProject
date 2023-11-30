@@ -91,8 +91,7 @@ public class AddHotel_StepDefinitions {
     }
     @Given("User leave the ID Group dropdown empty")
     public void user_leave_the_ıd_group_dropdown_empty() {
-        Select dropdownElement = new Select(addRoomPage.addHotelIDGroup);
-        dropdownElement.selectByVisibleText("");
+
 
     }
     @Given("User leave the Address textbox empty")
