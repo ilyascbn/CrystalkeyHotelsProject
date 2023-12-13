@@ -19,7 +19,7 @@ public class Login_StepDefinitions {
 
         try{
             Thread.sleep(3000);
-            login_page.gelismisButon.click();
+            login_page.advancedLink.click();
             Thread.sleep(2000);
             actions.moveByOffset(0,200).perform();
             login_page.proceedLink.click();

@@ -21,14 +21,14 @@ public class Login_Page {
     @FindBy(id ="btnSubmit" )
     public WebElement login_Buton2;
 
-    @FindBy(id="details-button")
+    @FindBy(xpath="//*[@id=\"details-button\"]")
     public WebElement advancedLink;
 
     @FindBy(xpath="//*[@id=\"proceed-link\"]")
     public WebElement proceedLink;
 
-    @FindBy(xpath="//*[@id=\"details-button\"]")
-    public WebElement gelismisButon;
+   // @FindBy(xpath="//*[@id=\"details-button\"]")
+   // public WebElement gelismisButon;
 
     @FindBy(id="//*[@id=\"divMessageResult\"]/div/ul/li/text()")
     public WebElement yanlisusernameveyapasporttexti;
